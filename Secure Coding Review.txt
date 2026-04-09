@@ -1,0 +1,22 @@
+1. Language & Application
+
+Python – Login System
+
+2.Vulnerabilities Found:
+Password is hardcoded in the code
+Password is visible while typing
+No encryption is used
+No limit on login attempts
+
+3.Recommendations
+Do not store password directly in code
+Hide password while typing
+Use secure password methods
+Limit number of login attempts
+
+4.Tools Used
+Manual Code Review
+Bandit
+
+5.conclusion
+The program contains basic security issues. Applying secure coding practices can improve safety.
